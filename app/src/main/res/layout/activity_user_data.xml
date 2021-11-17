@@ -6,7 +6,8 @@
     android:orientation="vertical"
     android:padding="10dp"
     android:layout_height="match_parent"
-    tools:context=".UI.UserData">
+    tools:context=".UI.UserData"
+    android:background="#0a0a40">
 
     <ImageView
         android:padding="5dp"
@@ -31,7 +32,7 @@
             android:layout_weight="0.1"
             android:fontFamily="serif"
             android:text="Name : "
-            android:textColor="#C54B8C"
+            android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -41,7 +42,7 @@
             android:fontFamily="serif"
             android:layout_weight="1"
             android:layout_width="wrap_content"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:layout_height="wrap_content"
             android:textSize="18sp" />
     </LinearLayout>
@@ -60,7 +61,7 @@
             android:layout_weight="0.1"
             android:fontFamily="serif"
             android:text="Account No : "
-            android:textColor="#C54B8C"
+            android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -69,7 +70,7 @@
             android:textAlignment="textEnd"
             android:fontFamily="serif"
             android:textSize="18sp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -89,7 +90,7 @@
             android:layout_weight="0.1"
             android:fontFamily="serif"
             android:text="Email : "
-            android:textColor="#C54B8C"
+            android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -98,7 +99,7 @@
             android:textAlignment="textEnd"
             android:fontFamily="serif"
             android:textSize="18sp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -118,7 +119,7 @@
             android:layout_weight="0.1"
             android:fontFamily="serif"
             android:text="IFSC Code : "
-            android:textColor="#C54B8C"
+            android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -128,7 +129,7 @@
             android:textAlignment="textEnd"
             android:fontFamily="serif"
             android:textSize="18sp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
@@ -147,13 +148,13 @@
             android:layout_weight="0.1"
             android:fontFamily="serif"
             android:text="Mobile No : "
-            android:textColor="#C54B8C"
+            android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/phone_no"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:layout_weight="1"
             android:textAlignment="textEnd"
             android:fontFamily="serif"
@@ -176,7 +177,7 @@
             android:layout_weight="0.1"
             android:fontFamily="serif"
             android:text="Current Balance : "
-            android:textColor="#C54B8C"
+            android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -186,7 +187,7 @@
             android:textAlignment="textEnd"
             android:fontFamily="serif"
             android:textSize="18sp"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
              />
@@ -199,7 +200,7 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="100dp"
         android:layout_marginRight="100dp"
-        android:backgroundTint="#C54B8C"
+        android:backgroundTint="#fa643f"
         android:fontFamily="@font/averia_serif_libre_light"
         android:padding="5dp"
         android:text="Transfer Money"

@@ -40,21 +40,21 @@ public class UserHelper extends SQLiteOpenHelper {
         db.execSQL(SQL_CREATE_USER_TABLE);
 
         // Insert Into Table
-        db.execSQL("insert into " + TABLE_NAME + " values(6780,'Sahana sana', 'sahana@gmail.com','7564','9098690233', 13000)");
-        db.execSQL("insert into " + TABLE_NAME + " values(9876,'Jahnavi janu', 'janu@gmail.com','1876','8877653238', 14000)");
-        db.execSQL("insert into " + TABLE_NAME + " values(3456,'Sneha shree', 'sneha@gmail.com','6756','7865445896', 8000)");
-        db.execSQL("insert into " + TABLE_NAME + " values(5432,'Shilpa sri', 'shilpa@gmail.com','7752','9995640038', 11000)");
-        db.execSQL("insert into " + TABLE_NAME + " values(8765,'Shantha Kumari', 'shantha@gmail.com','7863','8099648962', 12000)");
-        db.execSQL("insert into " + TABLE_NAME + " values(8587,'Caroline forbes', 'care@gmail.com','7653','9877654329', 8700)");
-        db.execSQL("insert into " + TABLE_NAME + " values(3248,'Klaus Mikelson', 'klaus@gmail.com','8906','9988765432', 9080)");
-        db.execSQL("insert into " + TABLE_NAME + " values(9821,'Vidhya dhare', 'vidhya@gmail.com','4522','9985021539', 8900)");
-        db.execSQL("insert into " + TABLE_NAME + " values(6542,'Ram pothineni', 'ram@gmail.com','8664','8776889076', 10450)");
-        db.execSQL("insert into " + TABLE_NAME + " values(8035,'Nani suraj', 'nani@gmail.com','8754','8675543245', 10000)");
-        db.execSQL("insert into " + TABLE_NAME + " values(9870,'Damon salvatore', 'damon@gmail.com','9088','9019644478', 7400)");
-        db.execSQL("insert into " + TABLE_NAME + " values(3020,'Pallavi ramaiah', 'pallavi@gmail.com','3215','8066547897', 12200)");
-        db.execSQL("insert into " + TABLE_NAME + " values(1613,'Nuthan anil', 'nuthan@gmail.com','8765','9019877765', 8700)");
-        db.execSQL("insert into " + TABLE_NAME + " values(7854,'Bonnie bennet', 'bonnie@gmail.com','9087','9876546678', 3590)");
-        db.execSQL("insert into " + TABLE_NAME + " values(8106,'Hope mikelson', 'hope@gmail.com','4532','6123547884', 9020)");
+        db.execSQL("insert into " + TABLE_NAME + " values(6780,'Jayesh Dhuri', 'jayesh@gmail.com','7564','9098690233', 13000)");
+        db.execSQL("insert into " + TABLE_NAME + " values(9876,'Atiq Shaikh', 'atiq@gmail.com','1876','8877653238', 14000)");
+        db.execSQL("insert into " + TABLE_NAME + " values(3456,'Sneha Chauhan', 'sneha@gmail.com','6756','7865445896', 8000)");
+        db.execSQL("insert into " + TABLE_NAME + " values(5432,'Bharat Mali', 'bharat@gmail.com','7752','9995640038', 11000)");
+        db.execSQL("insert into " + TABLE_NAME + " values(8765,'Ishan Lokhande', 'ishan@gmail.com','7863','8099648962', 120000)");
+        db.execSQL("insert into " + TABLE_NAME + " values(8587,'Bane Shubham', 'bane@gmail.com','7653','9877654329', 8700)");
+        db.execSQL("insert into " + TABLE_NAME + " values(3248,'Akash Shinde', 'akash@gmail.com','8906','9988765432', 9080)");
+        db.execSQL("insert into " + TABLE_NAME + " values(9821,'Ankit Giri', 'ankit@gmail.com','4522','9985021539', 8900)");
+        db.execSQL("insert into " + TABLE_NAME + " values(6542,'Chimi nimi', 'Chimni@gmail.com','8664','8776889076', 10450)");
+        db.execSQL("insert into " + TABLE_NAME + " values(8035,'Neha Mahajan', 'neha@gmail.com','8754','8675543245', 10000)");
+        db.execSQL("insert into " + TABLE_NAME + " values(9870,'Raghu baba', 'raghu@gmail.com','9088','9019644478', 7400)");
+        db.execSQL("insert into " + TABLE_NAME + " values(3020,'Zainab Lokhandwala', 'Zaina@gmail.com','3215','8066547897', 12200)");
+        db.execSQL("insert into " + TABLE_NAME + " values(1613,'Hetal Kubal', 'potts@gmail.com','8765','9019877765', 8700)");
+        db.execSQL("insert into " + TABLE_NAME + " values(7854,'Sage Ascendent', 'sage@gmail.com','9087','9876546678', 3590)");
+        db.execSQL("insert into " + TABLE_NAME + " values(8106,'Cypher Spykar', 'cypher@gmail.com','4532','6123547884', 9020)");
     }
 
     @Override

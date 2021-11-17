@@ -17,7 +17,6 @@ public class HomeScreen extends AppCompatActivity {
 
     Animation anim;
     ImageView bankLogo;
-    TextView tvBankTitle;
     Button btnAllUsers, btnAllTransactions;
 
     @Override
@@ -29,10 +28,8 @@ public class HomeScreen extends AppCompatActivity {
         bankLogo = findViewById(R.id.bank_logo);
         btnAllUsers = findViewById(R.id.all_users);
         btnAllTransactions = findViewById(R.id.Alltransactions);
-        tvBankTitle = findViewById(R.id.bank_title);
 
         bankLogo.setAnimation(anim);
-        tvBankTitle.setAnimation(anim);
         btnAllUsers.setAnimation(anim);
         btnAllTransactions.setAnimation(anim);
     }

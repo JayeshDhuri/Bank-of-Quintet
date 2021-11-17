@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="5dp"
-        android:layout_margin="5dp">
+        android:layout_margin="5dp"
+        android:background="@drawable/box">
 
         <TextView
             android:id="@+id/username"
@@ -21,7 +22,7 @@
             android:layout_marginLeft="10dp"
             android:fontFamily="@font/armata"
             android:text="User Name"
-            android:textColor="#C54B8C"
+            android:textColor="#0a0a40"
             android:textSize="18sp"
             android:textStyle="bold" />
 
