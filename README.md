@@ -6,6 +6,4 @@ App for Sparks Foundation
 * Uses MYSQLite for Database storage.
 
 # Screenshots!
-
-# Design Layout 
 <img src="https://github.com/JayeshDhuri/Bank-of-Quintet/blob/main/ss/Bank%20OF%20Quintet.png">
